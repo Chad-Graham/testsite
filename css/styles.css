@@ -1,9 +1,11 @@
 body {
     font-family: "Open Sans", sans-serif;
+    /*
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     filter: grayscale(100%);
+    */
 }
 
 h1,
@@ -54,4 +56,11 @@ a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
